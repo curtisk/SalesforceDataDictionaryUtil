@@ -15,9 +15,9 @@ There are a number of things I would like to add when I get time, as it stands t
 2. Provide Username, Password and Security Token for your Salesforce Instance
 3. Click "Login and Retrieve sObjects", list view will populate
 4. Check off sObjects you want to extract additional info about
-  * Currently it is only getting sObject name, length, type and label
-  * If it is a picklist it will generate a string containing all options instead of the label
-  * If it is a reference, it will indicate which sObject it relates to instead of the label
+  * Currently it is only getting sObject name, length, type and label for each field on each object
+  * If it is a picklist field, it will generate a string containing all options instead of the label
+  * If it is a reference field, it will indicate which sObject it relates to instead of the label
 5. Click "Generate Data Dictionary"
 6. Give file a name and location, Save.
 
