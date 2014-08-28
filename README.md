@@ -22,3 +22,4 @@ There are a number of things I would like to add when I get time, as it stands t
 6. Give file a name and location, Save.
 
 That's about it for now, if anything goes wrong, check the log.txt file in the directory the exe is running from for details.
+Currently using API version 31 Partner WSDL, but you could always update the web reference to another API version if needed.
