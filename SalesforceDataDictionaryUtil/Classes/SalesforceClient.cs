@@ -27,7 +27,6 @@ namespace SalesforceDataDictionaryUtil.Classes
 
         public bool LoginToSalesforce()
         {
-            _binding = new SforceService();
             _success = false;
             try
             {
@@ -109,9 +108,12 @@ namespace SalesforceDataDictionaryUtil.Classes
         private static string UnwrapToString(PicklistEntry[] picklistEntry)
         {
             StringBuilder sb = new StringBuilder();
-            foreach (var pickitem in picklistEntry)
+            if (picklistEntry != null)
             {
-                sb.Append(pickitem.label + "^");
+                foreach (var pickitem in picklistEntry)
+                {
+                    sb.Append(pickitem.label + "^");
+                }
             }
             return sb.ToString();
         }
