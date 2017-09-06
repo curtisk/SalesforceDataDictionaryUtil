@@ -1,7 +1,8 @@
-﻿using SalesforceDataDictionaryUtil.SFPartnerApi31Service;
+﻿using SalesforceDataDictionaryUtil.SFPartnerAPIService;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Web.Services.Protocols;
 
@@ -16,12 +17,14 @@ namespace SalesforceDataDictionaryUtil.Classes
         private SforceService _binding;
         readonly Log _log = new Log();
 
-        public SalesforceClient(string username, string password, string token)
+        public SalesforceClient(string username, string password, string token, string serverUrl)
         {
             Username = username;
             Password = password;
             Token = token;
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
             _binding = new SforceService();
+            _binding.Url = serverUrl;
 
         }
 

@@ -1,5 +1,5 @@
 ﻿using SalesforceDataDictionaryUtil.Classes;
-using SalesforceDataDictionaryUtil.SFPartnerApi31Service;
+using SalesforceDataDictionaryUtil.SFPartnerAPIService;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -19,13 +19,25 @@ namespace SalesforceDataDictionaryUtil
         private void btnLogin_Click(object sender, EventArgs e)
         {
             lblStatus.Text = "";
+            string svr = "";
+
             if (String.IsNullOrEmpty(txtUserName.Text) || String.IsNullOrEmpty(txtPassword.Text) || String.IsNullOrEmpty(txtToken.Text))
             {
                 lblStatus.Text = "You must provide a Username, Password and Token to continue...";
             }
             else
             {
-                sc = new SalesforceClient(txtUserName.Text, txtPassword.Text, txtToken.Text);
+                if (chkServerType.Checked)
+                {
+                    //sandbox
+                    svr = "https://test.salesforce.com/services/Soap/u/31.0";
+                }
+                else
+                {
+                    //prod
+                    svr = "https://login.salesforce.com/services/Soap/u/31.0";
+                }
+                sc = new SalesforceClient(txtUserName.Text, txtPassword.Text, txtToken.Text, svr);
                 // login
                 bool loginOk = sc.LoginToSalesforce();
                 if (loginOk)

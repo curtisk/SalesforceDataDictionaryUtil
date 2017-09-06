@@ -58,7 +58,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Web References\SFPartnerApi31Service\Reference.cs">
+    <Compile Include="Web References\SFPartnerAPIService\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.map</DependentUpon>
@@ -84,135 +84,135 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="Web References\SFPartnerApi31Service\DeleteResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\DeleteResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\DescribeAppMenuItem.datasource">
+    <None Include="Web References\SFPartnerAPIService\DescribeAppMenuItem.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\DescribeApprovalLayout.datasource">
+    <None Include="Web References\SFPartnerAPIService\DescribeApprovalLayout.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\DescribeAvailableQuickActionResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\DescribeAvailableQuickActionResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\DescribeCompactLayout.datasource">
+    <None Include="Web References\SFPartnerAPIService\DescribeCompactLayout.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\DescribeCompactLayoutsResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\DescribeCompactLayoutsResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\DescribeDataCategoryGroupResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\DescribeDataCategoryGroupResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\DescribeDataCategoryGroupStructureResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\DescribeDataCategoryGroupStructureResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\DescribeFlexiPageResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\DescribeFlexiPageResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\DescribeGlobalResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\DescribeGlobalResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\DescribeGlobalTheme.datasource">
+    <None Include="Web References\SFPartnerAPIService\DescribeGlobalTheme.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\DescribeLayoutResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\DescribeLayoutResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\DescribeQuickActionResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\DescribeQuickActionResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\DescribeSearchLayoutResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\DescribeSearchLayoutResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\DescribeSearchScopeOrderResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\DescribeSearchScopeOrderResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\DescribeSObjectResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\DescribeSObjectResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\DescribeSoftphoneLayoutResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\DescribeSoftphoneLayoutResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\DescribeTab.datasource">
+    <None Include="Web References\SFPartnerAPIService\DescribeTab.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\DescribeTabSetResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\DescribeTabSetResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\DescribeThemeItem.datasource">
+    <None Include="Web References\SFPartnerAPIService\DescribeThemeItem.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\EmptyRecycleBinResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\EmptyRecycleBinResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\GetDeletedResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\GetDeletedResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\GetServerTimestampResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\GetServerTimestampResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\GetUpdatedResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\GetUpdatedResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\GetUserInfoResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\GetUserInfoResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\InvalidateSessionsResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\InvalidateSessionsResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\KnowledgeSettings.datasource">
+    <None Include="Web References\SFPartnerAPIService\KnowledgeSettings.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\LeadConvertResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\LeadConvertResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\LoginResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\LoginResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\MergeResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\MergeResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\PerformQuickActionResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\PerformQuickActionResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\ProcessResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\ProcessResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\QueryResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\QueryResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\QuickActionTemplateResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\QuickActionTemplateResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\Reference.map">
+    <None Include="Web References\SFPartnerAPIService\Reference.map">
       <Generator>MSDiscoCodeGenerator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\ResetPasswordResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\ResetPasswordResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\SaveResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\SaveResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\SearchResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\SearchResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\SendEmailResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\SendEmailResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\SetPasswordResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\SetPasswordResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\sfPartner31.wsdl" />
-    <None Include="Web References\SFPartnerApi31Service\sObject.datasource">
+    <None Include="Web References\SFPartnerAPIService\sfPartner31.wsdl" />
+    <None Include="Web References\SFPartnerAPIService\sObject.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\UndeleteResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\UndeleteResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SFPartnerApi31Service\UpsertResult.datasource">
+    <None Include="Web References\SFPartnerAPIService\UpsertResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
   </ItemGroup>
@@ -226,16 +226,16 @@
     <WebReferences Include="Web References\" />
   </ItemGroup>
   <ItemGroup>
-    <WebReferenceUrl Include="C:\development\dotNet\SalesforceDataDictionaryUtil\SalesforceDataDictionaryUtil\sfPartner31.wsdl">
+    <WebReferenceUrl Include="C:\Users\curtisk\Documents\GitHub\SalesforceDataDictionaryUtil\SalesforceDataDictionaryUtil\sfPartner31.wsdl">
       <UrlBehavior>Dynamic</UrlBehavior>
-      <RelPath>Web References\SFPartnerApi31Service\</RelPath>
-      <UpdateFromURL>C:\development\dotNet\SalesforceDataDictionaryUtil\SalesforceDataDictionaryUtil\sfPartner31.wsdl</UpdateFromURL>
+      <RelPath>Web References\SFPartnerAPIService\</RelPath>
+      <UpdateFromURL>C:\Users\curtisk\Documents\GitHub\SalesforceDataDictionaryUtil\SalesforceDataDictionaryUtil\sfPartner31.wsdl</UpdateFromURL>
       <ServiceLocationURL>
       </ServiceLocationURL>
       <CachedDynamicPropName>
       </CachedDynamicPropName>
       <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
-      <CachedSettingsPropName>SalesforceDataDictionaryUtil_SFPartnerApi31Service_SforceService</CachedSettingsPropName>
+      <CachedSettingsPropName>SalesforceDataDictionaryUtil_SFPartnerAPIService_SforceService</CachedSettingsPropName>
     </WebReferenceUrl>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

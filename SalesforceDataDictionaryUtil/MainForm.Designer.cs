@@ -40,12 +40,14 @@
             this.checkedListBoxObjects = new System.Windows.Forms.CheckedListBox();
             this.ButtonGenerateReport = new System.Windows.Forms.Button();
             this.lblStatus = new System.Windows.Forms.Label();
+            this.chkServerType = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.chkServerType);
             this.groupBox1.Controls.Add(this.btnLogin);
             this.groupBox1.Controls.Add(this.lblToken);
             this.groupBox1.Controls.Add(this.txtToken);
@@ -55,14 +57,14 @@
             this.groupBox1.Controls.Add(this.txtUserName);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(264, 250);
+            this.groupBox1.Size = new System.Drawing.Size(264, 299);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Credientals";
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(42, 194);
+            this.btnLogin.Location = new System.Drawing.Point(78, 253);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(171, 23);
             this.btnLogin.TabIndex = 6;
@@ -127,7 +129,7 @@
             this.groupBox2.Controls.Add(this.checkedListBoxObjects);
             this.groupBox2.Location = new System.Drawing.Point(282, 11);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(592, 251);
+            this.groupBox2.Size = new System.Drawing.Size(592, 300);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "sObjects Selection";
@@ -138,12 +140,12 @@
             this.checkedListBoxObjects.FormattingEnabled = true;
             this.checkedListBoxObjects.Location = new System.Drawing.Point(23, 35);
             this.checkedListBoxObjects.Name = "checkedListBoxObjects";
-            this.checkedListBoxObjects.Size = new System.Drawing.Size(545, 184);
+            this.checkedListBoxObjects.Size = new System.Drawing.Size(545, 229);
             this.checkedListBoxObjects.TabIndex = 0;
             // 
             // ButtonGenerateReport
             // 
-            this.ButtonGenerateReport.Location = new System.Drawing.Point(681, 268);
+            this.ButtonGenerateReport.Location = new System.Drawing.Point(705, 317);
             this.ButtonGenerateReport.Name = "ButtonGenerateReport";
             this.ButtonGenerateReport.Size = new System.Drawing.Size(169, 30);
             this.ButtonGenerateReport.TabIndex = 2;
@@ -154,16 +156,27 @@
             // lblStatus
             // 
             this.lblStatus.AutoSize = true;
-            this.lblStatus.Location = new System.Drawing.Point(17, 275);
+            this.lblStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStatus.Location = new System.Drawing.Point(17, 315);
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(0, 13);
             this.lblStatus.TabIndex = 3;
+            // 
+            // chkServerType
+            // 
+            this.chkServerType.AutoSize = true;
+            this.chkServerType.Location = new System.Drawing.Point(9, 205);
+            this.chkServerType.Name = "chkServerType";
+            this.chkServerType.Size = new System.Drawing.Size(74, 17);
+            this.chkServerType.TabIndex = 7;
+            this.chkServerType.Text = "Sandbox?";
+            this.chkServerType.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(891, 315);
+            this.ClientSize = new System.Drawing.Size(891, 359);
             this.Controls.Add(this.lblStatus);
             this.Controls.Add(this.ButtonGenerateReport);
             this.Controls.Add(this.groupBox2);
@@ -192,6 +205,7 @@
         private System.Windows.Forms.Label lblToken;
         private System.Windows.Forms.TextBox txtToken;
         private System.Windows.Forms.Label lblStatus;
+        private System.Windows.Forms.CheckBox chkServerType;
     }
 }
 
